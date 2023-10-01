@@ -1,7 +1,7 @@
 ## Stock Price Prediction
                 Este é um exemplo de código em Python que demonstra como realizar previsões de preços de ações usando um modelo de regressão linear. O código utiliza bibliotecas populares, como numpy, pandas e scikit-learn, para processar os dados e criar o modelo de previsão.
 
-###Funcionalidades
+#### Funcionalidades
     - O código inclui as seguintes funcionalidades:
 
     - Preparação dos Dados: Uma função chamada prepare_data é responsável por preparar os dados que serão usados para treinar e testar o modelo de previsão. Ela realiza as seguintes etapas:
@@ -16,16 +16,16 @@
 
     - Divide os dados em conjuntos de treinamento e teste, onde o conjunto de teste terá uma proporção específica dos dados.
 
-#####Treinamento do Modelo: 
+##### Treinamento do Modelo: 
     - O código utiliza um modelo de regressão linear, um algoritmo de aprendizado de máquina, para treinar o modelo. O modelo é alimentado com os dados de treinamento para aprender a fazer previsões com base nos dados históricos.
 
-#####Avaliação do Modelo: 
+##### Avaliação do Modelo: 
     - Após o treinamento, o código avalia o desempenho do modelo calculando sua pontuação nos dados de teste. A pontuação indica o quão bem o modelo está se saindo na previsão dos dados de teste.
 
-#####Previsões Futuras:
+##### Previsões Futuras:
     - O modelo treinado é usado para fazer previsões para um número especificado de períodos no futuro. Essas previsões são armazenadas em uma estrutura de dados.
 
-#####Utilização
+##### Utilização
     - Para usar este código, siga as seguintes etapas:
 
     - Certifique-se de ter as bibliotecas numpy, pandas e scikit-learn instaladas em seu ambiente Python.
